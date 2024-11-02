@@ -70,5 +70,14 @@ h3 {
   margin-top: 10px;
 }
 input {
-  padding: 8px 20px;
+  padding: 9px 20px;
+  font-size: 0.9rem;
+}
+input[type="submit"] {
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  padding: 9px 20px;
+  font-weight: 600;
 }
