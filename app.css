@@ -19,13 +19,14 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 55px;
 }
 nav a {
   color: white;
   text-decoration: none;
   font-size: 20px;
   background-color: red;
-  border-radius: 4px;
+  border-radius: 6px;
   padding: 6px 16px;
   font-weight: 600;
   transition: all 0.3s ease-in-out;
@@ -33,4 +34,12 @@ nav a {
 nav a:hover {
   background-color: white;
   color: red;
+}
+main {
+  text-align: center;
+  color: white;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
