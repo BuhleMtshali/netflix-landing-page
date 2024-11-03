@@ -152,9 +152,10 @@ ul {
 }
 li {
   padding: 10px;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   cursor: pointer;
 }
 li:hover {
   color: red;
+  text-decoration: underline;
 }
