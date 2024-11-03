@@ -98,10 +98,10 @@ input[type="submit"]:hover {
 .mid-section {
   background-color: black;
   color: white;
-  height: 100vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
 }
 .right-media {
   display: flex;
@@ -118,5 +118,14 @@ input[type="submit"]:hover {
   max-width: 100%;
 }
 .mid-section h1 {
-  margin: 0;
+  font-size: 3.5rem;
+  margin-top: 5px;
+}
+span {
+  color: red;
+  cursor: grab;
+}
+.left-text {
+  font-size: 1.5rem;
+  margin-top: 0;
 }
