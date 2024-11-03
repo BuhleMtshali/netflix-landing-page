@@ -96,6 +96,22 @@ input[type="submit"]:hover {
   background-color: black;
   color: white;
   height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.right-media img {
+  z-index: 1;
+}
+.right-media video {
+  position: absolute;
+  top: 150px;
 }
 .mid-section h1 {
   margin: 0;
