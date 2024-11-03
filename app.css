@@ -167,6 +167,7 @@ select {
   background-color: black;
   color: white;
   font-size: 0.9rem;
+  cursor: pointer;
 }
 small {
   font-size: 14px;
