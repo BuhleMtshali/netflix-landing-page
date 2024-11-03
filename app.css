@@ -167,3 +167,6 @@ select {
   color: white;
   font-size: 0.9rem;
 }
+small {
+  font-size: 14px;
+}
