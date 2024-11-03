@@ -17,6 +17,9 @@ body {
   input {
     margin: 5px;
   }
+  .mid-section {
+    flex-direction: column;
+  }
 }
 svg {
   height: 40px;
@@ -108,10 +111,11 @@ input[type="submit"]:hover {
 }
 .right-media img {
   z-index: 1;
+  max-width: 100%;
 }
 .right-media video {
   position: absolute;
-  top: 150px;
+  max-width: 100%;
 }
 .mid-section h1 {
   margin: 0;
