@@ -80,7 +80,7 @@ nav a:hover {
 }
 
 input {
-  padding: 9px 20px;
+  padding: 10px 20px;
   font-size: 0.9rem;
 }
 
@@ -89,7 +89,7 @@ input[type="submit"] {
   color: white;
   border: none;
   font-size: 1rem;
-  padding: 9px 20px;
+  padding: 10px 20px;
   font-weight: 600;
   transition: all 0.3s ease-in-out;
 }
