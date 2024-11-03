@@ -24,6 +24,9 @@ body {
   .mid-section {
     flex-direction: column;
   }
+  footer {
+    flex-direction: column;
+  }
 }
 svg {
   height: 40px;
@@ -67,6 +70,7 @@ nav a:hover {
   flex-direction: column;
   justify-content: center;
   height: 100vh;
+  padding: 20px;
 }
 .mid-top h1 {
   font-size: 3.3rem;
@@ -106,7 +110,7 @@ input[type="submit"]:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
 }
 .right-media {
   display: flex;
@@ -138,5 +142,19 @@ footer {
   background-color: black;
   color: white;
   margin: 0;
-  padding: 0;
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+ul {
+  list-style-type: none;
+  margin-bottom: 10px;
+}
+li {
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+li:hover {
+  color: red;
 }
