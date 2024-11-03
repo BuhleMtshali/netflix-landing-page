@@ -7,6 +7,8 @@
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
+  cursor: move;
+  user-select: none;
 }
 @media (max-width: 600px) {
   form {
@@ -81,6 +83,7 @@ input {
   padding: 9px 20px;
   font-size: 0.9rem;
 }
+
 input[type="submit"] {
   background-color: red;
   color: white;
