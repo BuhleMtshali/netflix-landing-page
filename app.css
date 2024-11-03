@@ -24,7 +24,7 @@ body {
   .mid-section {
     flex-direction: column;
   }
-  footer {
+  .footer-container {
     flex-direction: column;
   }
 }
@@ -140,9 +140,11 @@ span {
 }
 footer {
   background-color: black;
-  color: white;
+  color: rgba(255, 255, 255, 0.7);
   margin: 0;
   padding: 30px;
+}
+.footer-container {
   display: flex;
   justify-content: space-between;
 }
@@ -152,10 +154,16 @@ ul {
 }
 li {
   padding: 10px;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
   cursor: pointer;
 }
 li:hover {
   color: red;
   text-decoration: underline;
+}
+select {
+  padding: 8px 19px;
+  background-color: black;
+  color: white;
+  font-size: 0.9rem;
 }
